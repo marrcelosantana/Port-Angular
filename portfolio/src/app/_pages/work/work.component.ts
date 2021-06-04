@@ -9,7 +9,7 @@ import { Technologies } from 'src/app/_models/technologies';
 export class WorkComponent implements OnInit {
 
   tecs = [
-    new Technologies (1, 'Html 5', '../../../assets/icons/html.svg'),
+    new Technologies (1, 'HTML 5', '../../../assets/icons/html.svg'),
     new Technologies (2, 'CSS 3', '../../../assets/icons/css.svg'),
     new Technologies (3, 'JavaScript', '../../../assets/icons/javascript.svg'),
     new Technologies (4, 'React', '../../../assets/icons/react.svg'),

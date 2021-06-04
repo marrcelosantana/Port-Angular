@@ -1,14 +1,11 @@
 .container-fluid{
   display: flex;
   align-items: center;
-  justify-content: space-between;
-
-  gap: 30rem;
-
+  justify-content: space-around;
   margin-top: 5rem;
 
   img{
-    width: 40%;
+    width: 50%;
     height: 40rem;
   }
 }
@@ -16,7 +13,7 @@
 .container-content{
   justify-content: center;
   align-items: center;
-  padding: 10rem;
+  text-align: center;
 
   h1{
     font-family: rajdhani, sans-serif;

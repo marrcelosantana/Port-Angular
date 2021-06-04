@@ -8,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   nome = 'Mark Simons';
-  frase1 = 'Seja bem-vindo! 👋';
-  frase2 = 'Acesse os menus acima para mais informações 😀';
+  frase1 = 'Hey, Welcome 👋';
+  frase2 = 'Access the options above for more information. 😀';
 
   constructor() { }
 

@@ -1,0 +1,14 @@
+<div class="container-fluid">
+  <div class="content-container">
+    <h1>Siga nas redes-sociais 👇</h1>
+    <ul>
+      <li *ngFor = "let item of networks">
+        <a href="{{item.link}}" target="_blank">
+          <img src="{{item.icon}}" alt="icons">
+          {{item.name}}
+        </a>
+      </li>
+    </ul>
+  </div>
+  <img src="../../../assets/images/social.svg" alt="social">
+</div>

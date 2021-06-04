@@ -1,0 +1,41 @@
+header{
+  width: 100%;
+  height: 5rem;
+
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-family: rajdhani, sans-serif;
+
+  padding: 0 3rem 0 3rem;
+
+  img{
+    width: 3rem;
+    height: 3rem;
+  }
+
+  nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    gap: 10rem;
+
+    a{
+      color: var(--black-omni);
+
+      transition: color 2ms;
+      font-weight: bold;
+      font-size: 1.5rem;
+
+      &:hover{
+        color: var(--purple);
+      }
+    }
+
+  }
+
+}

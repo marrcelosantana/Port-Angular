@@ -1,0 +1,25 @@
+.container-fluid{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 30rem;
+
+  margin-top: 5rem;
+
+  img{
+    width: 40%;
+    height: 40rem;
+  }
+}
+
+.container-content{
+  justify-content: center;
+  align-items: center;
+  padding: 10rem;
+
+  h1{
+    font-family: rajdhani, sans-serif;
+    font-size: 4rem;
+  }
+}

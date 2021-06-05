@@ -9,6 +9,7 @@ import { WorkComponent } from './_pages/work/work.component';
 import { SocialComponent } from './_pages/social/social.component';
 import { PageNotFoundComponent } from './_pages/page-not-found/page-not-found.component';
 import { HomeComponent } from './_pages/home/home.component';
+import { ButtonComponent } from './_components/button/button.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HomeComponent } from './_pages/home/home.component';
     WorkComponent,
     SocialComponent,
     PageNotFoundComponent,
-    HomeComponent
+    HomeComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,

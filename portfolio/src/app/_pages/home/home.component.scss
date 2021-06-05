@@ -38,15 +38,4 @@
     font-size: 1.1rem;
   }
 
-  button{
-    background-color: var(--purple);
-    margin-top: 2rem;
-    width: 8rem;
-    font-weight: bold;
-
-
-    &:hover{
-      filter: brightness(0.9);
-    }
-  }
 }

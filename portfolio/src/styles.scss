@@ -6,7 +6,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 :root{
@@ -22,6 +21,12 @@
     html {
         font-size: 93.75%;
     }
+}
+
+@media (max-width: 768px){
+  nav{
+    gap: 1rem;
+  }
 }
 
 @media(max-width: 720px){

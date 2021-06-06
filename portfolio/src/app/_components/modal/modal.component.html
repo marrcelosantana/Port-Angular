@@ -1,0 +1,17 @@
+<button type="button" class="btn btn-primary" (click)="openModal(template)" id="principal-button">Talk to me</button>
+
+<ng-template #template>
+  <div class="modal-header">
+    <h4 class="modal-title pull-left">{{title}}</h4>
+    <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()" id="close-button">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <h4>{{titleMessage}}</h4>
+    <textarea name="" id="" cols="30" rows="10" placeholder="type here..."></textarea>
+  </div>
+  <div class="div-button">
+    <button type="button" class="send-button" (click)="modalRef.hide()">{{textButton}}</button>
+  </div>
+</ng-template>

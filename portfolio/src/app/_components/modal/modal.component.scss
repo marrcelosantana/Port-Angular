@@ -1,0 +1,63 @@
+#principal-button{
+  background-color: var(--purple);
+  border: 0;
+  transition: filter 0.2ms;
+  margin-top: 2rem;
+  width: 10rem;
+  font-family: rajdhani, sans-serif;
+  font-weight: bolder;
+  font-size: 1.2rem;
+
+  &:hover{
+    filter: brightness(0.9);
+  }
+}
+
+#close-button{
+  background: transparent;
+  border: 0;
+  font-size: 2rem;
+}
+
+.modal-header{
+  h4{
+    font-family: Roboto, sans-serif;
+  }
+}
+
+
+.div-button{
+  padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .send-button{
+    background-color: var(--purple);
+    border: 0;
+    font-family: rajdhani, sans-serif;
+    font-weight: bolder;
+    transition: filter 0.2ms;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 3px;
+    color: white;
+  }
+}
+
+
+.modal-body{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  textarea{
+    border: 1px solid var(--purple);
+    padding: 1rem;
+  }
+
+  h4{
+    font-family: rajdhani, sans-serif;
+  }
+
+}

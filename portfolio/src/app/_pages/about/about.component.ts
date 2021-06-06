@@ -7,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
-  text = 'Duis aliqua tempor excepteur aliquip. Consequat irure cupidatat do sint non ut. Tempor duis in ea minim eiusmod. Fugiat ad ad irure dolore fugiat eiusmod exercitation. Consequat amet nulla officia sit eiusmod magna laboris exercitation occaecat cupidatat ad. Culpa culpa aliqua et mollit aliquip mollit adipisicing quis anim fugiat sunt in mollit. Eu in nisi enim quis sit eu fugiat sunt.'
+
+  text = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec tincidunt praesent semper feugiat nibh sed pulvinar. Nunc consequat interdum varius sit amet mattis vulputate enim nulla. Nulla aliquet enim tortor at. Urna et pharetra pharetra massa massa ultricies mi. Blandit massa enim nec dui nunc mattis enim ut. Aliquet porttitor lacus luctus accumsan tortor posuere. Vivamus arcu felis bibendum ut. Arcu bibendum at varius vel pharetra vel turpis nunc. Id diam maecenas ultricies mi eget. Arcu non odio euismod lacinia at quis risus. Aliquet porttitor lacus luctus accumsan tortor posuere.'
 
   constructor() { }
 

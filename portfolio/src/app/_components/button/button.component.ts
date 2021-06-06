@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ButtonComponent implements OnInit {
 
+  message: string = 'Olá, seja muito bem-vindo!!';
+
+  alertar(){
+    window.alert(this.message);
+  }
+
   constructor() { }
 
   ngOnInit(): void {

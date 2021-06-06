@@ -39,3 +39,15 @@
   }
 
 }
+
+.footer-home{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-right: 2rem;
+
+  span{
+    font-size: 0;
+  }
+}

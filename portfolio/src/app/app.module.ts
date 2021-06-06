@@ -14,6 +14,8 @@ import { ButtonComponent } from './_components/button/button.component';
 import { ModalComponent } from './_components/modal/modal.component';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { ModalSucessComponent } from './_components/modal-sucess/modal-sucess.component';
+import { RatingComponent } from './_components/rating/rating.component';
+import { RatingModule } from 'ngx-bootstrap/rating';
 
 @NgModule({
   declarations: [
@@ -26,13 +28,15 @@ import { ModalSucessComponent } from './_components/modal-sucess/modal-sucess.co
     HomeComponent,
     ButtonComponent,
     ModalComponent,
-    ModalSucessComponent
+    ModalSucessComponent,
+    RatingComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     TooltipModule,
     ModalModule.forRoot(),
+    RatingModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]

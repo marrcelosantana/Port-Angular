@@ -9,9 +9,11 @@
   </div>
   <div class="modal-body">
     <h4>{{titleMessage}}</h4>
-    <textarea name="" id="" cols="30" rows="10" placeholder="type here..."></textarea>
+    <textarea name="" id="text-area" cols="30" rows="10" placeholder="type here..."></textarea>
   </div>
   <div class="div-button">
-    <button type="button" class="send-button" (click)="modalRef.hide()">{{textButton}}</button>
+    <button type="button" class="send-button" (click)="sendingSucess()" >{{textButton}}</button>
   </div>
 </ng-template>
+
+

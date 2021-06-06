@@ -1,0 +1,8 @@
+<div class="rating">
+  <rating [max]="10" (ngModel)="y" [customTemplate]="tt"></rating>
+  <ng-template #tt let-i="index" let-v="value">
+    <button class="btn btn-{{i < v ? 'warning' : 'default'}}">
+      {{i < v ? '&#9733;' : '&#9734;'}}
+    </button>
+  </ng-template>
+</div>

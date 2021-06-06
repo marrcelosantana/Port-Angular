@@ -1,6 +1,7 @@
 import { Component, OnInit, TemplateRef } from '@angular/core';
 import { BsModalService, BsModalRef } from 'ngx-bootstrap/modal';
 
+
 @Component({
   selector: 'app-modal',
   templateUrl: './modal.component.html',
@@ -18,8 +19,23 @@ export class ModalComponent implements OnInit {
 
   openModal(template: TemplateRef<any>) {
     this.modalRef = this.modalService.show(template);
+
+  }
+
+  textArea = document.getElementById('text-area');
+  text = String(this.textArea);
+
+  clear(){
+    this.text = '';
+  }
+
+  sendingSucess(){
+      window.alert('✉️ MESSAGE SENT SUCCESSFULLY! ✉️');
   }
 
   ngOnInit(): void {
+
   }
 }
+
+

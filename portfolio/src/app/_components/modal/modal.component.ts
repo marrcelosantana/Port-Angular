@@ -22,12 +22,7 @@ export class ModalComponent implements OnInit {
 
   }
 
-  textArea = document.getElementById('text-area');
-  text = String(this.textArea);
-
-  clear(){
-    this.text = '';
-  }
+  textArea = document.getElementById('text-area') as HTMLTextAreaElement;
 
   sendingSucess(){
       window.alert('✉️ MESSAGE SENT SUCCESSFULLY! ✉️');
